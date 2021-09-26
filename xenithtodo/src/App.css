@@ -11,12 +11,12 @@ body {
 input[type='text'] {
   background: transparent;
   border: none;
-  color: rgba(255, 255, 255, 0.4);
+
   margin-left: 10%;
 }
 
 .App-header {
-  height: 30vh;
+  height: 35vh;
   /* background-image: url('./images/bg__trees.png'); */
   /* -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -40,18 +40,18 @@ input[type='text'] {
   color: white;
   /* margin: 0% 8% 0% 8%; */
   position: absolute;
-  margin-top: 8%;
+  margin-top: 12%;
   /* margin-left: 25%; */
   width: 55%;
 }
 
 .header > h1 {
-  padding-bottom: 5px;
+  padding-bottom: 15px;
 }
 
 .inputBox {
   background-color: #25273c;
-  color: rgba(255, 255, 255, 0.4);
+  color: white;
   border-radius: 7px;
   height: 35px;
   display: flex;
@@ -66,4 +66,28 @@ input[type='text'] {
   border: 1px solid rgba(255, 255, 255, 0.4);
   box-sizing: border-box;
   margin-left: 2%;
+}
+
+.space {
+  height: 50px;
+  color: white;
+}
+
+/* List Component Styling */
+
+.List {
+  display: flex;
+  justify-content: center;
+  margin-top: -15%;
+  background-color: #25273c;
+  border-radius: 7px;
+  min-height: 17vh;
+  width: 55%;
+  position: relative;
+}
+
+.ListDiv {
+  color: white;
+  position: absolute;
+  /* width: 55%; */
 }
